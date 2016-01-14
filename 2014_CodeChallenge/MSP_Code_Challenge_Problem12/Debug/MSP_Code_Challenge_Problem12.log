@@ -1,0 +1,19 @@
+﻿빌드 시작: 2016-01-14 오후 12:43:44
+     1>5 노드의 "C:\Users\BoWoon\Documents\GitHub\MSP_Code_Challenge\2014_CodeChallenge\MSP_Code_Challenge_Problem12\MSP_Code_Challenge_Problem12.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Alphabet.cpp Anagram.cpp Main.cpp
+         Main.cpp
+         Anagram.cpp
+         Alphabet.cpp
+     1>c:\users\bowoon\documents\github\msp_code_challenge\2014_codechallenge\msp_code_challenge_problem12\alphabet.cpp(10): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+         코드를 생성하고 있습니다...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\BoWoon\Documents\GitHub\MSP_Code_Challenge\2014_CodeChallenge\Debug\MSP_Code_Challenge_Problem12.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\BoWoon\Documents\GitHub\MSP_Code_Challenge\2014_CodeChallenge\Debug\MSP_Code_Challenge_Problem12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\BoWoon\Documents\GitHub\MSP_Code_Challenge\2014_CodeChallenge\Debug\MSP_Code_Challenge_Problem12.lib" /MACHINE:X86 Debug\Alphabet.obj
+         Debug\Anagram.obj
+         Debug\Main.obj
+         MSP_Code_Challenge_Problem12.vcxproj -> C:\Users\BoWoon\Documents\GitHub\MSP_Code_Challenge\2014_CodeChallenge\Debug\MSP_Code_Challenge_Problem12.exe
+     1>"C:\Users\BoWoon\Documents\GitHub\MSP_Code_Challenge\2014_CodeChallenge\MSP_Code_Challenge_Problem12\MSP_Code_Challenge_Problem12.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.78
