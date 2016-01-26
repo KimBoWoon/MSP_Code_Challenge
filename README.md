@@ -1,6 +1,8 @@
 # MSP_Code_Challenge
 Microsoft Student Partners Code Challenge
 
+[![Build Status](https://travis-ci.org/KimBoWoon/MSP_Code_Challenge.svg?branch=master)](https://travis-ci.org/KimBoWoon/MSP_Code_Challenge)
+
 1. Success
 2. Success
 3. Success
