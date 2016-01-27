@@ -1,1 +1,23 @@
-language: c++
+language:
+  - cpp
+
+compiler:
+  - g++
+
+script: 
+  - g++ -o p1 ./2014_CodeChallenge/MSP_Code_Challenge_Problem1/Problem1.cpp
+  - g++ -o p2 ./2014_CodeChallenge/MSP_Code_Challenge_Problem2/Problem2.cpp
+  - g++ -o p3 ./2014_CodeChallenge/MSP_Code_Challenge_Problem3/Problem3.cpp
+  - g++ -o p4 ./2014_CodeChallenge/MSP_Code_Challenge_Problem4/Problem4.cpp
+  - g++ -o p5 ./2014_CodeChallenge/MSP_Code_Challenge_Problem5/Problem5.cpp
+  - g++ -o p6 ./2014_CodeChallenge/MSP_Code_Challenge_Problem6/Main.cpp
+  - g++ -o p7 ./2014_CodeChallenge/MSP_Code_Challenge_Problem7/Main.cpp
+  - g++ -o p8 ./2014_CodeChallenge/MSP_Code_Challenge_Problem8/Up_and_Down.cpp
+  - g++ -o p9 ./2014_CodeChallenge/MSP_Code_Challenge_Problem9/Binary_Main.cpp
+  - g++ -o p10 ./2014_CodeChallenge/MSP_Code_Challenge_Problem10/Singing_Room_Main.cpp
+  - g++ -o p11 ./2014_CodeChallenge/MSP_Code_Challenge_Problem11/Coin_Main.cpp
+  - g++ -o p12 ./2014_CodeChallenge/MSP_Code_Challenge_Problem12/Main.cpp
+  - g++ -o p13 ./2014_CodeChallenge/MSP_Code_Challenge_Problem13/Prime_Number.cpp
+  - g++ -o p15 ./2014_CodeChallenge/MSP_Code_Challenge_Problem15/Bracelet.cpp
+  - g++ -o p16 ./2014_CodeChallenge/MSP_Code_Challenge_Problem16/bowling.cpp
+  - g++ -o p17 ./2014_CodeChallenge/MSP_Code_Challenge_Problem17/64Game.cpp
