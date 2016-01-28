@@ -1,6 +1,6 @@
 #include "Singing_Room.h"
 
-void main()
+int main()
 {
 	ifstream input;
 	int num;
@@ -45,4 +45,6 @@ void main()
 	}
 
 	input.close();
+
+	return 0;
 }

@@ -2,7 +2,7 @@
 
 void Song::SetSong(ifstream& input)
 {
-	char str[100] = { NULL }, cnt = 0;
+	char str[100] = { 0 }, cnt = 0;
 
 	input >> item.song_num >> item.singer >> item.dummy;
 	input.getline(item.song_nameandlyrics, 100);

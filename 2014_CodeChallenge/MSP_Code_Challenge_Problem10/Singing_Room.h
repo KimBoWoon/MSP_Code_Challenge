@@ -6,6 +6,7 @@
 #include <string>
 #include <vector>
 #include <cstring>
+#include <cstdlib>
 using namespace std;
 
 struct Item

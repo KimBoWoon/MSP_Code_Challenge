@@ -13,7 +13,7 @@ Copyright (C) MadPlay's SW Life.
 #include <iomanip> // setw를 위한 헤더 파일
 #include <vector>
 //#include <conio.h>
-#include <Windows.h> // Clear Screen, exit 등을 위한 헤더 파일
+//#include <Windows.h> // Clear Screen, exit 등을 위한 헤더 파일
 #include <time.h>
 using namespace std;
 #pragma warning(disable:4996) // 비주얼 스튜디오 secure 에러 무시
