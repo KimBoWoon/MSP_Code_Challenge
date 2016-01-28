@@ -35,7 +35,7 @@ int main()
 			if (num > v.size())
 				throw "입력범위가 초과했습니다.";
 			if (num == 0)
-				return;
+				return 0;
 			v[num - 1].PrintLyrics();
 		}
 		catch (const char *s)
