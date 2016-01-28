@@ -11,12 +11,27 @@ script:
   - g++ -o p4 ./2014_CodeChallenge/MSP_Code_Challenge_Problem4/Problem4.cpp
   - g++ -o p5 ./2014_CodeChallenge/MSP_Code_Challenge_Problem5/Problem5.cpp
   - g++ -o p6 ./2014_CodeChallenge/MSP_Code_Challenge_Problem6/Main.cpp
+              ./2014_CodeChallenge/MSP_Code_Challenge_Problem6/Bank_Balance.cpp
+              ./2014_CodeChallenge/MSP_Code_Challenge_Problem6/Accumulated_Money.cpp
+              ./2014_CodeChallenge/MSP_Code_Challenge_Problem6/Accumulated_Money.h
   - g++ -o p7 ./2014_CodeChallenge/MSP_Code_Challenge_Problem7/Main.cpp
+              ./2014_CodeChallenge/MSP_Code_Challenge_Problem7/Between_Classes.cpp
+              ./2014_CodeChallenge/MSP_Code_Challenge_Problem7/Between_Classes.h
   - g++ -o p8 ./2014_CodeChallenge/MSP_Code_Challenge_Problem8/Up_and_Down.cpp
   - g++ -o p9 ./2014_CodeChallenge/MSP_Code_Challenge_Problem9/Binary_Main.cpp
+              ./2014_CodeChallenge/MSP_Code_Challenge_Problem9/Binary.cpp
+              ./2014_CodeChallenge/MSP_Code_Challenge_Problem9/Binary.h
   - g++ -o p10 ./2014_CodeChallenge/MSP_Code_Challenge_Problem10/Singing_Room_Main.cpp
+                ./2014_CodeChallenge/MSP_Code_Challenge_Problem10/Singing_Room.cpp
+                ./2014_CodeChallenge/MSP_Code_Challenge_Problem10/Singing_Room.h
   - g++ -o p11 ./2014_CodeChallenge/MSP_Code_Challenge_Problem11/Coin_Main.cpp
+                ./2014_CodeChallenge/MSP_Code_Challenge_Problem11/Coin.cpp
+                ./2014_CodeChallenge/MSP_Code_Challenge_Problem11/Coin.h
   - g++ -o p12 ./2014_CodeChallenge/MSP_Code_Challenge_Problem12/Main.cpp
+                ./2014_CodeChallenge/MSP_Code_Challenge_Problem12/Alphabet.cpp
+                ./2014_CodeChallenge/MSP_Code_Challenge_Problem12/Anagram.cpp
+                ./2014_CodeChallenge/MSP_Code_Challenge_Problem12/Alphabet.h
+                ./2014_CodeChallenge/MSP_Code_Challenge_Problem12/Anagram.h
   - g++ -o p13 ./2014_CodeChallenge/MSP_Code_Challenge_Problem13/Prime_Number.cpp
   - g++ -o p15 ./2014_CodeChallenge/MSP_Code_Challenge_Problem15/Bracelet.cpp
   - g++ -o p16 ./2014_CodeChallenge/MSP_Code_Challenge_Problem16/bowling.cpp
