@@ -12,7 +12,7 @@ Copyright (C) MadPlay's SW Life.
 #include <string>
 #include <iomanip> // setw를 위한 헤더 파일
 #include <vector>
-#include <conio.h>
+//#include <conio.h>
 #include <Windows.h> // Clear Screen, exit 등을 위한 헤더 파일
 #include <time.h>
 using namespace std;
@@ -141,7 +141,8 @@ public:
 
 
 			char keyInput = 'x';
-			keyInput = getch(); // 키 입력
+			//keyInput = getch(); // 키 입력
+			cin >> keyInput;
 			allBlocksMove(keyInput); // 키 입력에 따른 블록 이동
 			switch (keyInput) {
 			case 'w': case 'a': case 's': case 'd':
@@ -340,7 +341,8 @@ public:
 
 
 		fflush(stdin);
-		choice = getch();
+		//choice = getch();
+		cin >> choice;
 		if (choice == 'y') playGame();
 		else if (choice == 'n') exit(0);
 		else showEndMessage(type);

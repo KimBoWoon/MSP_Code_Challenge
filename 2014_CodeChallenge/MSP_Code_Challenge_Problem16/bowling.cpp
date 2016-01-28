@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <memory>
+#include <string.h>
+#include <cstdlib>
 using namespace std;
 
 class Bowling
